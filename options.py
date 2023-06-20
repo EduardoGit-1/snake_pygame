@@ -1,0 +1,21 @@
+SCREEN_WIDTH = 700
+SCREEN_HEIGHT = 750
+CELL_SIZE = 25
+FPS = 15
+
+SNAKE_HEAD_COLOR = "red"
+SNAKE_INNER_COLOR = "green"
+SNAKE_OUTTER_COLOR = "white"
+
+FOOD_INNER_COLOR = "red"
+FOOD_OUTTER_COLOR = "WHITE"
+
+GAME_OVER_MESSAGE = "Game Over!"
+PLAY_AGAIN_MESSAGE = "Press any key to restart!"
+
+class DIRECTION():
+    UP = 1
+    DOWN = 2
+    LEFT = 3
+    RIGHT = 4
+

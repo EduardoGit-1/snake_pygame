@@ -1,0 +1,3 @@
+use rect.collisions instead
+make board a class
+replicate food spawning from the real game
