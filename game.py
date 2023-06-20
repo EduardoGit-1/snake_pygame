@@ -110,7 +110,7 @@ class Game:
             self.increment_score()
     
     def check_screen_collision(self):
-        #screen "x-axis collision"
+        #screen "x-axis collision "
         if self.snake.pos[0][0] == CELL_SIZE and self.snake.direction == DIRECTION.LEFT:
             self.snake.pos[0][0] = self.board.width - (CELL_SIZE * 2)
         elif self.snake.pos[0][0] > self.board.width - (CELL_SIZE * 3) and self.snake.direction == DIRECTION.RIGHT:
